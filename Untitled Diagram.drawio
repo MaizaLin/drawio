@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-07T23:26:09.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="JP7vSs1iPEB3loqjVut0" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-07T23:30:20.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="6F2R_e_C7u4793OJM-Ap" version="13.6.6" type="github">
   <diagram id="LcY1_hLD7llHcdi6jEFA" name="Page-1">
     <mxGraphModel dx="2526" dy="860" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="295" y="730" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZgpA9MCTI-UAVIsFCGOP-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ReportGenerator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ generate( in table : String[][] ) : void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="529" y="152" width="228" height="69" as="geometry" />
+          <mxGeometry x="531" y="146" width="228" height="69" as="geometry" />
         </mxCell>
         <mxCell id="ZgpA9MCTI-UAVIsFCGOP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=0.815;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ZgpA9MCTI-UAVIsFCGOP-4" target="ZgpA9MCTI-UAVIsFCGOP-8">
           <mxGeometry relative="1" as="geometry">
@@ -33,8 +33,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZgpA9MCTI-UAVIsFCGOP-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ReportService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getComponent() : Object&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="232" y="161.5" width="200" height="50" as="geometry" />
+        <mxCell id="ZgpA9MCTI-UAVIsFCGOP-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ReportService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ generateMonthlyReport( in year, in month )&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192" y="155.5" width="248" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="ZgpA9MCTI-UAVIsFCGOP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZgpA9MCTI-UAVIsFCGOP-4" target="ZgpA9MCTI-UAVIsFCGOP-3">
           <mxGeometry relative="1" as="geometry">
@@ -45,13 +45,13 @@
         <mxCell id="ZgpA9MCTI-UAVIsFCGOP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="ZgpA9MCTI-UAVIsFCGOP-8" target="ZgpA9MCTI-UAVIsFCGOP-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgpA9MCTI-UAVIsFCGOP-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ReportService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getComponent() : Object&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="ZgpA9MCTI-UAVIsFCGOP-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PdfReportGenerator&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ generate( in table : String[][] ) : void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="290" width="250" height="47" as="geometry" />
         </mxCell>
         <mxCell id="ZgpA9MCTI-UAVIsFCGOP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;dashed=1;" edge="1" parent="1" source="ZgpA9MCTI-UAVIsFCGOP-10" target="ZgpA9MCTI-UAVIsFCGOP-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZgpA9MCTI-UAVIsFCGOP-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ReportService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getComponent() : Object&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="ZgpA9MCTI-UAVIsFCGOP-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;HtmlReportGenerator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ generate( in table : String[][] ) : void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="290" width="250" height="47" as="geometry" />
         </mxCell>
       </root>
